@@ -2,7 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/",
+      "source": "/releases",
       "destination": "https://api.github.com/repos/sanmusen214/BAAH/releases/latest"
     },
     {
