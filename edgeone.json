@@ -4,6 +4,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/releases",
+      "destination": "https://baah.02000721.xyz/releases"
+    },
+    {
       "source": "/apk/global",
       "destination": "https://d.apkpure.net/b/XAPK/com.nexon.bluearchive?version=latest"
     },
