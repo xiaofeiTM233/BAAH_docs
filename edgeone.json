@@ -1,5 +1,5 @@
 {
-  "buildCommand": "vitepress build",
+  "buildCommand": "npm run docs:build",
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "rewrites": [
