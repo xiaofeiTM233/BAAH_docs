@@ -61,7 +61,7 @@ See [Deploy from Source Code](/en_US/docs/manual/source-code) for details.
 == Linux
 **Linux**
 
-First, ensure your system has Docker installed. You can check by entering the following command
+First, ensure your system has Docker or podman installed. You can check by entering the following command
 
 ``` bash
 # For ROOT users
@@ -160,9 +160,31 @@ For more help on how to use Docker, head to https://docs.docker.com/go/guides/
 
 Then, pull the image, create and run the container.
 
+Image release: [Github Package](https://github.com/BlueArchiveArisHelper/BAAH/pkgs/container/baah)
+
+::: details docker
 ``` bash
-docker run -d --name BAAH -p 8000:8000 ghcr.io/bluearchivearishelper/baah:latest
+# If you use an emulator/other Android container, use port forwarding
+sudo docker run -d --name BAAH -p 8000:8000 ghcr.io/bluearchivearishelper/baah:latest
+
+# If you need to connect to a remote Android device, start the ADB Server on the host and use host mode
+sudo docker run -d --name BAAH --net=host ghcr.io/bluearchivearishelper/baah:latest
+
+# If you are in mainland China and cannot pull the image from ghcr.io, please refer to the mirror registries listed in the Chinese documentation (/zh_CN/docs/manual/quick-start).
 ```
+:::
+:::details podman
+``` bash
+# It is recommended to run the BAAH container at the system level
+# If you use an emulator/other Android container, use port forwarding
+podman run -d --name BAAH -p 8000:8000 ghcr.io/bluearchivearishelper/baah:latest
+
+# If you need to connect to a remote Android device, start the ADB Server on the host and use host mode
+podman run -d --name BAAH --net=host ghcr.io/bluearchivearishelper/baah:latest
+
+# If you are in mainland China and cannot pull the image from ghcr.io, please refer to the mirror registries listed in the Chinese documentation (/zh_CN/docs/manual/quick-start).
+```
+:::
 
 Then open your browser and navigate to `http://<your-server-ip>:8000`
 

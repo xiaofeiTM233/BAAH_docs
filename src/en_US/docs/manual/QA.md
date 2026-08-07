@@ -15,6 +15,19 @@ Download BAAH1.x.xx_update.zip from [GitHub Release](https://github.com/BlueArch
 
 Or just double click `UPDATE.exe` to update BAAH.
 
+### About containers
+
+When using containers, updates may fail due to network issues (this mostly happens in mainland China). You can run this script to switch to a mirror download source:
+```bash
+# Inside the container:
+aria2c https://baah.sanmusen.top/res/change-source.sh -d . -o change-source.sh && bash change-source.sh && rm change-source.sh
+# Outside the container
+## docker
+docker exec -it <container_name> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+## podman
+podman exec -it <container_name> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+```
+
 ## 1. How to provide feedback
 
 Please:
