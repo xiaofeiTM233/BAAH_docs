@@ -59,8 +59,9 @@ export default {
   },
   methods: {
     detectLanguage() {
-      const urlPath = window.location.pathname
-      const browserLang = navigator.language.toLowerCase()
+      const hasBrowserApi = typeof window !== 'undefined' && typeof navigator !== 'undefined'
+      const urlPath = hasBrowserApi ? window.location.pathname : ''
+      const browserLang = hasBrowserApi ? navigator.language.toLowerCase() : ''
       const textDict = {
         zh: {
           currentVersion: '当前最新版本：',
@@ -119,6 +120,9 @@ export default {
       this.releaseBody = this.texts.loading
     },
     detectPlatform() {
+      if (typeof navigator === 'undefined') {
+        return
+      }
       const platform = navigator.platform.toLowerCase()
       if (platform.includes('win')) {
         this.platform = 'windows'
