@@ -4,18 +4,16 @@ If you really like BAAH and would like to buy the developer a cup of milk tea (o
 
 ## Paid Donation
 
-You can purchase Mirror-chan CDK and use it for downloads and updates. This not only allows the developer to earn a commission, but also enables high-speed downloads/updates.
+You can purchase a MirrorChyan CDK and use it for downloads and updates. This not only allows the developer to earn a commission, but also enables high-speed downloads/updates.
 
 ## Free Donation
 
-Here are the developers' payment codes or Afdian links.
-
-Software maintenance is not easy. If you feel this software has been helpful to you, you are welcome to sponsor through Afdian or WeChat QR code. Your support will be the motivation for developers to continue maintenance.
+The developer accepts donations through Afdian (爱发电):
 
 ::: details sanmusen214
-<AfdianCard />
+![sanmusen214](/img/donate/sanmusen214.webp)
 :::
 
 ::: warning
-Message from the developer: Thank you for your support of BAAH! Please consider sponsoring within an amount you're comfortable with. Donations made via WeChat or other channels do not include any additional benefits. Students and minors, please refrain from tipping~ Giving two coins to BAAH's [tutorial video](https://www.bilibili.com/video/BV1ZxfGYSEVr/) would also be a huge encouragement and support for us. Thank you very much~
+Message from the developer: Thank you for your support of BAAH! Please consider donating within an amount you're comfortable with. Donations do not include any additional benefits. Students and minors, please refrain from donating~ Even giving the BAAH repository a star on GitHub or spreading the word among your friends would be a great encouragement to us. Thank you very much~
 :::

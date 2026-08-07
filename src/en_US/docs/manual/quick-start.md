@@ -34,6 +34,8 @@ description: Complete BlueArchive Aris Helper deployment in 3 steps! MuMu emulat
 
 [Video Tutorial](https://www.bilibili.com/video/BV1ZxfGYSEVr)
 
+> :memo: **Note:** The official tutorial video is in Chinese, but the steps below cover the same process.
+
 First, download the approximately 160MB compressed package and extract it to any folder.
 
 [Go to Download Page](/en_US/download)

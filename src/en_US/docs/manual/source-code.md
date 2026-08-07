@@ -51,7 +51,7 @@ uv python install 3.10
 
 :::
 
-Then, you need to prepare [adb](https://developer.android.google.cn/tools/releases/platform-tools) and [aria2](https://github.com/aria2/aria2/releases) yourself.
+Then, you need to prepare [adb](https://developer.android.com/tools/releases/platform-tools) and [aria2](https://github.com/aria2/aria2/releases) yourself.
 
 ## Installing from Git
 
@@ -99,11 +99,11 @@ git clone https://github.com/BlueArchiveArisHelper/BAAH.git
 Don't close the window, run `cd BAAH` to enter the folder, and install dependencies.
 
 ``` cmd
-# Switch source
-pip config set global.index-url https://mirrors.cernet.edu.cn/pypi/web/simple
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+> :memo: **Note:** If you are in mainland China, you can append `-i https://mirrors.cernet.edu.cn/pypi/web/simple` to use a local PyPI mirror.
 
 Use `python jsoneditor.py` to run the WebUI, and modify the adb and aria2 paths in the configuration file editing interface.
 

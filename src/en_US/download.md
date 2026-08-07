@@ -8,20 +8,15 @@ description: Get BlueArchive Aris Helper automation script for free! Windows rec
 # Download BAAH
 
 ::: tip
-You can join one of the following QQ groups to get the latest version update notifications
+To get the latest version update notifications:
 
-**Mute Notification Group 2: 1056031857**
+- **Star/Watch** the [BAAH GitHub repository](https://github.com/BlueArchiveArisHelper/BAAH) and enable notifications for new releases.
 
-**Mute Notification Group 1: 1029291081 (Full)**
+To get usage help:
 
-**Mute Notification Group: 715586983 (Full)**
+- Ask in [GitHub Discussions](https://github.com/BlueArchiveArisHelper/BAAH/discussions) or open an [Issue](https://github.com/BlueArchiveArisHelper/BAAH/issues).
 
-
-
-You can join one of the following QQ groups for usage help
-
-**Q&A Group: 985729020**
-
+Chinese users can also join the QQ groups listed in the [Chinese documentation](/zh_CN/download).
 :::
 
 <!-- Reconstruct download page -->
@@ -39,6 +34,7 @@ You can join one of the following QQ groups for usage help
 <a href="https://mirrorchyan.com/en/projects?rid=BAAH" class="VPButton medium alt">MirrorChyan Download (CDK Required)</a>
 <a href="https://github.com/BlueArchiveArisHelper/BAAH/releases" class="VPButton medium alt">GitHub Release</a>
 <a href="https://api.blockhaity.qzz.io/docs/#/api-doc/getbaah" class="VPButton medium alt">BlockHaity's API</a>
+<a href="https://cnb.cool/BlockHaity/BAAH-releases/-/releases" class="VPButton medium alt">Cloud Native Build</a>
 
 == macOS
 
