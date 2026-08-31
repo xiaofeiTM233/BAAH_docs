@@ -38,7 +38,7 @@ description: 免费获取 BlueArchive Aris Helper 自动化脚本！Windows 推�
 <a href="https://pan.quark.cn/s/49fab9d220ec?pwd=W3dc" class="VPButton medium brand">夸克网盘下载</a>
 <a href="https://mirrorchyan.com/zh/projects?rid=BAAH" class="VPButton medium alt">Mirror酱下载（需要CDK）</a>
 <a href="https://github.com/BlueArchiveArisHelper/BAAH/releases" class="VPButton medium alt">GitHub Release</a>
-<a href="https://api.blockhaity.qzz.io/docs/#/api-doc/getbaah" class="VPButton medium alt">BlockHaity's API</a>
+<a href="https://api.blockhaity.eu.org/docs/#/api-doc/getbaah" class="VPButton medium alt">BlockHaity's API</a>
 <a href="https://cnb.cool/BlockHaity/BAAH-releases/-/releases" class="VPButton medium alt">Cloud Native Build</a>
 
 == macOS
@@ -52,7 +52,7 @@ description: 免费获取 BlueArchive Aris Helper 自动化脚本！Windows 推�
 
 == Android Termux
 
-<a href="https://bas.blockhaity.qzz.io?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/" class="VPButton medium brand">查看Android部署教程</a>
+<a href="https://bas.blockhaity.eu.org?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/" class="VPButton medium brand">查看Android部署教程</a>
 
 ::::
 
