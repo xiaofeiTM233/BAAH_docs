@@ -26,7 +26,7 @@ features:
   - title: Powerful Cross-platform Capability
     details: Whether it's Windows, macOS, Linux or even Android (experimental), BAAH can run on all platforms.
   - title: Complete Community Support
-    details: You can submit Issues in the BAAH GitHub repository or ask questions in the QQ Q&A group (985729020).
+    details: You can submit Issues in the BAAH GitHub repository or ask questions in GitHub Discussions. Chinese users can also join the QQ Q&A group (985729020).
 
 # SEO Optimization
 
@@ -35,15 +35,14 @@ subtitle: Official Download and Documentation
 description: BAAH is an open-source free Blue Archive automation tool, supporting Windows/macOS/Linux/Android multi-platform, providing one-stop solutions for game task automation, resource collection, shop purchases, dungeon farming, etc.
 ---
 
-## Supported Functions：
+## Supported Functions
 
-- Auto open emulator
-- Collect (Cafe Rewards, Invite in Cafe, Touch Head, Club Sign in, Daily Task Rewards, MailBox，Event Rewards，Tactical Challenge
-- Rewards, Total Assault Rewards)
-- Spend tickets/power to raid (Timetable, Normal, Hard, Event, Bounty, Commissions, Scrimmage, Tactical Challenge, Total Assault)
-- Buy (Normal Shop，Tactical Challenge Shop)
-- Explore (Momotalk, Normal, Hard, Event, Episode)
-- Update game (Game Package, Resource Package)
+- Auto open the emulator, automatically run tasks, custom add startup accelerator tasks, and auto close the emulator.
+- Collect (Cafe Output, Invite in Cafe, Touch Head, Club Sign-in, Daily Task Rewards, Mailbox, Event Rewards, Tactical Challenge Rewards, Total Assault Rewards).
+- Spend AP/tickets to sweep (Schedule, Normal, Hard, Event, Bounty, Commissions, Scrimmage, Tactical Challenge, Total Assault).
+- Buy (Normal Shop, Tactical Challenge Shop).
+- Explore (Clear MomoTalk notification markers, push Normal, Hard, Event stages, push Main Story).
+- Auto update the game (Game Package, Resource Package).
 
 ## Contributors
 <br>

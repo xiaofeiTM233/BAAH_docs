@@ -59,7 +59,7 @@ Please check the `API Notification` option to enable this feature.
 
 :::
 
-You can use API to get notifications, which can be used to push to WeChat Official Accounts, QQ groups, etc. This requires some third-party services, please look it up on the internet yourself.
+You can use API to get notifications, which can be used to push to messaging services such as Telegram, Discord, etc. This requires some third-party services, please look it up on the internet yourself.
 
 1. Enter your API address in the `API Notification URL` field.
 > :memo: **Note:** You can click the `PUSHPLUS`, `SERVERCHAN` or `TELEGRAM BOT` buttons below the API address tab to automatically add the API addresses for [PushPlus](https://www.pushplus.plus/), [ServerChan](https://sct.ftqq.com/) or [Telegram Bot](https://t.me/BotFather).
@@ -109,10 +109,10 @@ In the `Customize the email content` field, you can fill in the following **fiel
 | 12    | %ASSAULT_DATE%                 | Total assault date          | Date                        |
 | 13    | %CRAFT_FAILED%                 | Craft failed               | Reason                        |
 | 14    | %EVENT_DATE%                   | Event date          | Date                        |
-| 13    | %SCREENSHOT_READ_FAIL_TIMES% | Number of screenshot read failures | Number |
-| 14    | %RESTART_EMULATOR_TIMES% | Number of emulator restarts | Number |
-| 15    | %SCREENSHOT_DATA% | Screenshot data | RGB value or None when screenshot mode is pipe |
-| 16    | %CURRENT_PERIOD_TASK_INDEX% | Executed task sequence number | Number, -1 means no task has been executed |
+| 15    | %SCREENSHOT_READ_FAIL_TIMES% | Number of screenshot read failures | Number |
+| 16    | %RESTART_EMULATOR_TIMES% | Number of emulator restarts | Number |
+| 17    | %SCREENSHOT_DATA% | Screenshot data | RGB value or None when screenshot mode is pipe |
+| 18    | %CURRENT_PERIOD_TASK_INDEX% | Executed task sequence number | Number, -1 means no task has been executed |
 
 ::: details Example
 

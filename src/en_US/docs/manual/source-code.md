@@ -9,7 +9,7 @@ description: BAAH source code deployment solution for developers, requires Pytho
 
 # Deploying from Source Code
 
-For Android Termux deployment, please visit [🔗 Deployment Method](https://bas.blockhaity.qzz.io?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/) (Only Chinese!!!)
+For Android Termux deployment, please visit [🔗 Deployment Method](https://bas.blockhaity.eu.org?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/) (Only Chinese!!!)
 
 ::: warning
 Regardless, it is not recommended for regular users to deploy directly from source code. There will be no official update program support for source code deployment, and using `git pull` also carries the risk of damaging the program.
@@ -51,7 +51,7 @@ uv python install 3.10
 
 :::
 
-Then, you need to prepare [adb](https://developer.android.google.cn/tools/releases/platform-tools) and [aria2](https://github.com/aria2/aria2/releases) yourself.
+Then, you need to prepare [adb](https://developer.android.com/tools/releases/platform-tools) and [aria2](https://github.com/aria2/aria2/releases) yourself.
 
 ## Installing from Git
 
@@ -99,11 +99,11 @@ git clone https://github.com/BlueArchiveArisHelper/BAAH.git
 Don't close the window, run `cd BAAH` to enter the folder, and install dependencies.
 
 ``` cmd
-# Switch source
-pip config set global.index-url https://mirrors.cernet.edu.cn/pypi/web/simple
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+> :memo: **Note:** If you are in mainland China, you can append `-i https://mirrors.cernet.edu.cn/pypi/web/simple` to use a local PyPI mirror.
 
 Use `python jsoneditor.py` to run the WebUI, and modify the adb and aria2 paths in the configuration file editing interface.
 

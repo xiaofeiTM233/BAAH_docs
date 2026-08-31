@@ -13,6 +13,19 @@ description: 快速解决 BAAH 自动化脚本的典型问题：更新覆盖安�
 
 或者双击目录下的 `UPDATE.exe` 来更新 BAAH 。
 
+### 关于容器
+
+当你使用容器的时候，你可能会遇到因网络问题而无法更新，你可以运行这个脚本来更换国内源：
+```bash
+# 在容器内：
+aria2c https://baah.sanmusen.top/res/change-source.sh -d . -o change-source.sh && bash change-source.sh && rm change-source.sh
+# 在容器外
+## docker
+docker exec -it <容器名> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+## podman
+podman exec -it <容器名> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+```
+
 ## 1. 如何反馈
 
 请：

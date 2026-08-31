@@ -8,20 +8,15 @@ description: Get BlueArchive Aris Helper automation script for free! Windows rec
 # Download BAAH
 
 ::: tip
-You can join one of the following QQ groups to get the latest version update notifications
+To get the latest version update notifications:
 
-**Mute Notification Group 2: 1056031857**
+- **Star/Watch** the [BAAH GitHub repository](https://github.com/BlueArchiveArisHelper/BAAH) and enable notifications for new releases.
 
-**Mute Notification Group 1: 1029291081 (Full)**
+To get usage help:
 
-**Mute Notification Group: 715586983 (Full)**
+- Ask in [GitHub Discussions](https://github.com/BlueArchiveArisHelper/BAAH/discussions) or open an [Issue](https://github.com/BlueArchiveArisHelper/BAAH/issues).
 
-
-
-You can join one of the following QQ groups for usage help
-
-**Q&A Group: 985729020**
-
+Chinese users can also join the QQ groups listed in the [Chinese documentation](/zh_CN/download).
 :::
 
 <!-- Reconstruct download page -->
@@ -38,7 +33,8 @@ You can join one of the following QQ groups for usage help
 <a href="https://pan.quark.cn/s/49fab9d220ec" class="VPButton medium brand" title="Extraction Code: W3dc">Quark Cloud Download</a>
 <a href="https://mirrorchyan.com/en/projects?rid=BAAH" class="VPButton medium alt">MirrorChyan Download (CDK Required)</a>
 <a href="https://github.com/BlueArchiveArisHelper/BAAH/releases" class="VPButton medium alt">GitHub Release</a>
-<a href="https://api.blockhaity.qzz.io/docs/#/api-doc/getbaah" class="VPButton medium alt">BlockHaity's API</a>
+<a href="https://api.blockhaity.eu.org/docs/#/api-doc/getbaah" class="VPButton medium alt">BlockHaity's API</a>
+<a href="https://cnb.cool/BlockHaity/BAAH-releases/-/releases" class="VPButton medium alt">Cloud Native Build</a>
 
 == macOS
 
@@ -51,7 +47,7 @@ You can join one of the following QQ groups for usage help
 
 == Android Termux
 
-<a href="https://bas.blockhaity.qzz.io?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/" class="VPButton medium brand">View Android Deployment Tutorial (Only Chinese)</a>
+<a href="https://bas.blockhaity.eu.org?target=/2025/02/10/BAAH%E5%9C%A8%E9%80%86%E5%A4%A9%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E8%BF%90%E8%A1%8C/" class="VPButton medium brand">View Android Deployment Tutorial (Only Chinese)</a>
 
 ::::
 

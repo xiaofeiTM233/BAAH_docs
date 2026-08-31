@@ -11,9 +11,22 @@ description: Quick solutions to common BAAH automation script issues update over
 
 ## 0. How to update BAAH
 
-Download BAAH1.x.xx_update.zip from [GitHub Release](https://github.com/BlueArchiveArisHelper/BAAH/releases/) or [Gitee Release](https://gitee.com/sammusen/BAAH/releases) or QQ group or by clicking the update button in the GUI, then extract all contents to the BAAH folder and overwrite.
+Download BAAH1.x.xx_update.zip from [GitHub Release](https://github.com/BlueArchiveArisHelper/BAAH/releases/) or the [download page](/en_US/download), or by clicking the update button in the GUI, then extract all contents to the BAAH folder and overwrite.
 
 Or just double click `UPDATE.exe` to update BAAH.
+
+### About containers
+
+When using containers, updates may fail due to network issues (this mostly happens in mainland China). You can run this script to switch to a mirror download source:
+```bash
+# Inside the container:
+aria2c https://baah.sanmusen.top/res/change-source.sh -d . -o change-source.sh && bash change-source.sh && rm change-source.sh
+# Outside the container
+## docker
+docker exec -it <container_name> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+## podman
+podman exec -it <container_name> bash -c "aria2c https://baah.sanmusen.top/res/change-source.sh -d /root -o change-source.sh && bash /root/change-source.sh && rm /root/change-source.sh"
+```
 
 ## 1. How to provide feedback
 
@@ -73,7 +86,7 @@ BAAH is compatible with ALAS and MAA, but:
 
 ## 10. BAAH.exe disappeared after extraction
 
-Please add the BAAH folder to your antivirus software's whitelist and extract again. BAAH is completely open source. As long as you download BAAH from GitHub Release, MirrorChyan, the Quark Cloud Disk link at the beginning of this document, or the QQ group, you can use it safely.
+Please add the BAAH folder to your antivirus software's whitelist and extract again. BAAH is completely open source. As long as you download BAAH from GitHub Release, MirrorChyan, or the official download page, you can use it safely.
 
 ## 11. How to make BAAH run on a schedule
 

@@ -23,19 +23,19 @@ BAAH has comprehensive community support. If you encounter any problems while us
 
 You can get help through the following channels.
 
-[QQ Group Q&A Group](https://qm.qq.com/q/K2wAMIovqQ): 985729020
+[GitHub Discussions](https://github.com/BlueArchiveArisHelper/BAAH/discussions) (Recommended for international users)
 
-[Tencent Channel](https://pd.qq.com/s/5atxio0vq)
+[GitHub Issues](https://github.com/BlueArchiveArisHelper/BAAH/issues)
 
-[GitHub Discussions](https://github.com/BlueArchiveArisHelper/BAAH/discussions)
+[QQ Group Q&A Group](https://qm.qq.com/q/K2wAMIovqQ): 985729020 (For Chinese users)
 
-> :memo: **Note:** Please prioritize consulting in the group.
+> :memo: **Note:** Please prioritize GitHub Discussions / Issues for international users, and the QQ group for Chinese users.
 
 
 ### Before Asking Questions
 1. Please make sure you have watched the tutorial videos and this documentation as suggested, as they can solve the vast majority of problems.
 2. Check if the software has an [update](/en_US/docs/manual/QA.md#0-how-to-update-baah), and try updating to the latest version.
-3. If you are in the QQ group, you can first browse through the group chat history to see if there are similar situations and how they were resolved.
+3. Search GitHub [Discussions](https://github.com/BlueArchiveArisHelper/BAAH/discussions) and closed [Issues](https://github.com/BlueArchiveArisHelper/BAAH/issues?q=is%3Aissue%20state%3Aclosed) to see if there are similar situations and how they were resolved. (Chinese users can also browse the QQ group chat history.)
 4. Read GitHub [Issues](https://github.com/BlueArchiveArisHelper/BAAH/issues), including closed [Issues](https://github.com/BlueArchiveArisHelper/BAAH/issues?q=is%3Aissue%20state%3Aclosed), to see if there are similar problems.
 
 ### When Asking Questions
